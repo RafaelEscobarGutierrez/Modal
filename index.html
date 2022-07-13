@@ -5,37 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="estilos.css">
     <title>Document</title>
 </head>
 <body>
     
     <!-- Button trigger modal -->
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-        Launch static backdrop modal
+        Hola
     </button>
     
     <!-- Modal -->
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" id="ventana_mod">
-        <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-            <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title h5-styles" id="staticBackdropLabel">¡Rebajas en agradecimiento a tu preferencia!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col">
+                            <div class="modal-body">
+                                <p class="txt-anuncio">
+                                    Descuentos especiales para ti furuto programador. Consigue un 15 % de descuento sobre el precio de nuestros cursos. <br> Si, asi como lo escuchaste... ¡En todos nuestros cursos! 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <!-- Modal body with image -->
+                            <div class="modal-body">
+                                <img src="img-learning.png" class="shadow-img img-styles"/>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Quizá luego...</button>
+                 <button type="button" class="btn btn-primary"><a href="https://youtu.be/d6x2gyBFWVg" class="enlace-desc">Obtener descuento</a></button>
+                </div>   
             </div>
-            <div class="modal-body">
-            ...
-            </div>
-            <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Understood</button>
-            </div>
-        </div>
-        </div>
+        </div>|
     </div>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, consequatur exercitationem! Sed dolorum maxime, unde doloremque ipsum, dolorem minima laudantium beatae ullam nobis deserunt possimus quo et facere molestias delectus.</p>
 
-
+    
+ 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 <script src="app.js"></script>
